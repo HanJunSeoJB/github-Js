@@ -17,21 +17,21 @@
                 <lable>
                     Name
                 </lable>
-                <input type = "text", Placeholder = "Enter your Name", class = "form-control"/>
+                <input type = "text" Placeholder ="Enter your Name" class = "form-control"/>
 
             </div>
-            <div>
+            <div class = "form-group">
                 <lable>
                     Email
                 </lable>
-                <input type = "text", Placeholder = "Enter your Email", class = "form-control"/>
+                <input type = "text" Placeholder ="Enter your Email" class = "form-control"/>
     
             </div>
-            <div>
+            <div class = "form-group">
                 <lable>
                     Age<span class = "clue">(optional)</span>
                 </lable>
-                <input type = "text", Placeholder = "Age", class = "form-control"/>
+                <input type = "text" Placeholder ="Age" class = "form-control"/>
 
             </div>
             <div class = "form-group">
@@ -46,20 +46,20 @@
             </div>
             <div class = "form-group">
                 <p>Would you recommend freeCodeCamp to a friend?</p>
-                <lable>
-                    <input type = "radio", class = "input-radio"/>
-                    Definitely
-                </lable>
                 <label>
-                    <input type = "radio", class = "input-radio"/>
+                    <input type = "radio" class = "input-radio" value = "definitely" name = "user_recoomend" checked />
+                    Definitely
+                </label>
+                <label>
+                    <input type = "radio" class = "input-radio" value = "maybe" name = "user_recoomend" />
                     Maybe
                 </label>
                 <label>
-                    <input type = "radio", class = "input-radio"/>
+                    <input type = "radio" class = "input-radio" value = "not sure" name = "user_recoomend" />
                     Not Sure
                 </label>
             </div>
-            <div>
+            <div class = "form-group">
                 <p>What is your favorite feature of freeCodeCamp?</p>
                 <select class = "form-control">
                     <option>Select an option</option>
@@ -76,53 +76,54 @@
                     Front-end Projects
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                     Back-end Projects
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                    Data Visualization
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                     Challenges
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                     Open Source Community
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                     Giter help rooms
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                     Videos
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                     City Meetups
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                     Wiki
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                    Forum
                 </label>
                 <label>
-                    <input type = "checkbox", class = "input-checkbox"/>
+                    <input type = "checkbox" class = "input-checkbox"/>
                     Additonal Courses
                 </label>
             </div>
-            <div>
+            <div class = "form-group">
                 <p>Any comments or suggestions?</p>
-                <textarea class = "input-textarea">
-                </textarea>
+                <textarea class = "input-textarea"
+                placeholder="Enter your comment here..."
+                ></textarea>
             </div>
-            <div>
-                <button type = "submit", class = "submit-button">
+            <div class = "form-group">
+                <button type = "submit" class = "submit-button">
                     Submit
                 </button>
             </div>
